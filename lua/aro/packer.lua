@@ -1,0 +1,86 @@
+-- -- This file can be loaded by calling `lua require('plugins')` from your init.vim
+-- local vim = vim;
+--
+-- -- Only required if you have packer configured as `opt`
+-- vim.cmd [[packadd packer.nvim]]
+--
+-- return require('packer').startup(function(use)
+--   -- Packer can manage itself
+--   use 'wbthomason/packer.nvim'
+--
+--   -- Simple plugins can be specified as strings
+--   use 'rstacruz/vim-closer'
+--
+--   -- Telescope fuzzy finder
+--   use {
+--     'nvim-telescope/telescope.nvim', tag = '0.1.6',
+--     -- or                            , branch = '0.1.x',
+--
+--     requires = {
+--       { 'nvim-lua/plenary.nvim' },
+--       {
+--         "isak102/telescope-git-file-history.nvim",
+--         requires = { "tpope/vim-fugitive" }
+--       }
+--     }
+--   }
+--
+--   -- Comments 
+--   use {
+--       'numToStr/Comment.nvim',
+--       config = function()
+--           require('Comment').setup()
+--       end
+--   }
+--
+--   use("sindrets/diffview.nvim");
+--   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' });
+--   use('nvim-treesitter/playground');
+--   use('mbbill/undotree');
+--   use('tpope/vim-fugitive');
+--   use('f-person/git-blame.nvim');
+--
+--
+--   use {
+--     'ThePrimeagen/harpoon',
+--     branch = 'harpoon2',
+--     requires = { { 'nvim-lua/plenary.nvim' } }
+--   }
+--
+--   -- Theme
+--   use({
+--     "rose-pine/neovim",
+--     as = "rose-pine",
+--     -- config = function()
+--     --   local vimLocal = vim;
+--     -- end
+--   })
+--
+--   -- Icons diffview(?)
+--   use 'nvim-tree/nvim-web-devicons';
+--
+--   -- LSP
+--   use {
+--     'VonHeikemen/lsp-zero.nvim',
+--     branch = 'v3.x',
+--     requires = {
+--       --- Uncomment the two plugins below if you want to manage the language servers from neovim
+--       { 'williamboman/mason.nvim' },
+--       { 'williamboman/mason-lspconfig.nvim' },
+--
+--       { 'neovim/nvim-lspconfig' },
+--       { 'hrsh7th/nvim-cmp' },
+--       { 'hrsh7th/cmp-nvim-lsp' },
+--       { 'L3MON4D3/LuaSnip' },
+--     }
+--   }
+--   use {
+--     "williamboman/mason.nvim"
+--   }
+--
+--   -- scope lines nad etc.
+--   -- use {
+--   --   "lukas-reineke/indent-blankline.nvim",
+--   -- };
+--
+-- end)
